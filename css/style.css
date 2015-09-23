@@ -3,6 +3,20 @@
 body{
 	background: #F9F3EF;
 }
+
+.button {
+    padding: 20px;
+    color: white;
+    background-color: gray;
+    border: 2px solid white;
+    &:hover {
+      background-color: white;
+      color: gray;
+      transition: 0.7s ease;
+    }
+  }
+}
+
 .rw-wrapper{
 	width: 80%;
 	position: relative;
