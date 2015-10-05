@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Imprima);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
 
 body{
 	background: #F9F3EF;
@@ -8,7 +8,7 @@ body{
 	width: 80%;
 	position: relative;
 	margin: 110px auto 0 auto;
-	font-family: 'Impact', sans-serif;
+	font-family: 'Special Elite';
 	padding: 10px;
 }
 .rw-sentence{
