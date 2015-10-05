@@ -141,16 +141,10 @@ body{
   border-style: solid;
   border-width: 1px;
   -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+          transition: all 0.2s ease;
   -webkit-border-image: -webkit-linear-gradient(295deg, #000000 0%, #319c99 100%) 1 round;
-  -o-border-image: linear-gradient(155deg, #000000 0%, #319c99 100%) 1 round;
-  -moz-border-image: -moz-linear-gradient(155deg, #000000 0%, #319c99 100%) 1 round;
-  -ms-border-image: -ms-linear-gradient (155deg, #000000 0%, #319c99 100%) 1 round;
-    border-image: linear-gradient(155deg, #000000 0%, #319c99 100%) 1 round;
-         
+       -o-border-image: linear-gradient(155deg, #000000 0%, #319c99 100%) 1 round;
+          border-image: linear-gradient(155deg, #000000 0%, #319c99 100%) 1 round;
   background: -webkit-linear-gradient(295deg, #000000 0%, #319c99 100%);
   background: linear-gradient(155deg, #	000000 0%, #319c99 100%);
   background-clip: text;
