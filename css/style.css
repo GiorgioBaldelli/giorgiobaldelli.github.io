@@ -60,7 +60,7 @@ body{
 	animation-delay: 9s; 
 	color: #7a6b9d;
 }
-.rw-words-1 span:nth-child(5) { 
+/*.rw-words-1 span:nth-child(5) { 
     -webkit-animation-delay: 12s; 
 	-moz-animation-delay: 12s; 
 	-o-animation-delay: 12s; 
@@ -76,6 +76,8 @@ body{
 	animation-delay: 15s; 
 	color: #9b6b9d;
 }
+*/
+
 @-webkit-keyframes rotateWord {
     0% { opacity: 0; }
     2% { opacity: 0; -webkit-transform: translateY(-30px); }
