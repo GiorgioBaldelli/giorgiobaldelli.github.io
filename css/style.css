@@ -18,7 +18,7 @@ body{
 }
 .rw-sentence span{
 	color: #444;
-	font-size: 200%;
+	font-size: 250%;
 	font-weight: normal;
 }
 .rw-words{
@@ -133,7 +133,7 @@ body{
 .boxy {
   font-family: "Special Elite";
   font-weight: 400;
-  font-size: 200%;
+  font-size: 250%;
   color: #4C4C4C;
   display: inline-block;
   cursor: pointer;
