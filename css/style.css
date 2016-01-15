@@ -53,11 +53,11 @@ body{
 	color: #6b739d;	
 }
 .rw-words-1 span:nth-child(4) { 
-    -webkit-animation-delay: 9s;
-	-moz-animation-delay: 9s; 
-	-o-animation-delay: 9s; 
-	-ms-animation-delay: 9s; 
-	animation-delay: 9s; 
+    -webkit-animation-delay: 7s;
+	-moz-animation-delay: 7s; 
+	-o-animation-delay: 7s; 
+	-ms-animation-delay: 7s; 
+	animation-delay: 7s; 
 	color: #7a6b9d;
 }
 /*.rw-words-1 span:nth-child(5) { 
