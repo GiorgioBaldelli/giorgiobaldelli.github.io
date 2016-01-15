@@ -30,11 +30,11 @@ body{
 	opacity: 0;
 	overflow: hidden;
 	color: #6b969d;
-	-webkit-animation: rotateWord 18s linear infinite 0s;
-	-moz-animation: rotateWord 18s linear infinite 0s;
-	-o-animation: rotateWord 18s linear infinite 0s;
-	-ms-animation: rotateWord 18s linear infinite 0s;
-	animation: rotateWord 18s linear infinite 0s;
+	-webkit-animation: rotateWord 12s linear infinite 0s;
+	-moz-animation: rotateWord 12s linear infinite 0s;
+	-o-animation: rotateWord 12s linear infinite 0s;
+	-ms-animation: rotateWord 12s linear infinite 0s;
+	animation: rotateWord 12s linear infinite 0s;
 }
 .rw-words-1 span:nth-child(2) { 
     -webkit-animation-delay: 3s; 
@@ -53,11 +53,11 @@ body{
 	color: #6b739d;	
 }
 .rw-words-1 span:nth-child(4) { 
-    -webkit-animation-delay: 7s;
-	-moz-animation-delay: 7s; 
-	-o-animation-delay: 7s; 
-	-ms-animation-delay: 7s; 
-	animation-delay: 7s; 
+    -webkit-animation-delay: 9s;
+	-moz-animation-delay: 9s; 
+	-o-animation-delay: 9s; 
+	-ms-animation-delay: 9s; 
+	animation-delay: 9s; 
 	color: #7a6b9d;
 }
 /*.rw-words-1 span:nth-child(5) { 
