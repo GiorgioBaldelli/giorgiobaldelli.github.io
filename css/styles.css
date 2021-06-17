@@ -1,0 +1,31 @@
+.centered {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+}
+
+.head {
+  margin: 5% 0 5% 0;
+}
+
+.sub {
+  margin: 2% 0 2% 0;
+  font-size: 2vw;
+}
+
+.hide {
+  display: none;
+}
+
+.network-status {
+  float: right;
+  background: #0000009e;
+  width: 10vw;
+  height: 10vh;
+  position: absolute;
+  top: 5%;
+  right: 2%;
+}
