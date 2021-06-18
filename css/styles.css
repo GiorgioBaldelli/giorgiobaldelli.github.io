@@ -4,7 +4,7 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
-  font-size: 4vw;
+  font-size: 6vw;
 }
 
 .head {
@@ -13,7 +13,7 @@
 
 .sub {
   margin: 2% 0 2% 0;
-  font-size: 2vw;
+  font-size: 4vw;
 }
 
 .hide {
