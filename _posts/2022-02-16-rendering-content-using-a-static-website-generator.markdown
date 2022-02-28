@@ -13,7 +13,7 @@ I've built this website using a static site generator. Setting it up was a fast 
 
 # What's a static site generator?
 
-A static site generator parses markdown files and generates static HTML output ready to be rendered by any browser. Tools like Jekyll make this process simple and automatic.
+A static site generator parses markdown files and generates static HTML output ready to be rendered by the browser. Tools like Jekyll make this process simple and automatic.
 
 # The three benefits of using a static site generator
 
