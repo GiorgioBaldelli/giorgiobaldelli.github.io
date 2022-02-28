@@ -9,7 +9,7 @@ show_excerpts: true
 published: true
 ---
 
-I’ve had this experience many times: during a presentation, charts are presented with a temporal dimension on the x-axis to portray the evolution of specific features over time. However, when looking deeper at how the analysis is produced, survivorship bias is unfortunately not an uncommon occurrence.
+I’ve had this experience many times: during a presentation, someone uses charts with a temporal dimension on the x-axis to portray the evolution of a specific feature over time. However, when looking deeper at the source code behind the analysis, survivorship bias is unfortunately not an uncommon occurrence.
 
 # What's survivorship bias? 
 
