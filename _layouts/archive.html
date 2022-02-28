@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}
+  <h5 class="post-tag">
+    <i>
+      <a class="post-tag-link">{{ t | downcase }}</a>
+    </i>
+  </h5>
+  <ul class="post-tag-list">
+    {% for post in posts %}
+    {% if post.tags contains t %}
+    <li class="post-tag-item">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <!--<span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>-->
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
