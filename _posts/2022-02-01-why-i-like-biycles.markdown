@@ -9,7 +9,7 @@ show_excerpts: true
 published: true
 ---
 
-I remember the first time I rode a bicycle without training wheels as if it was yesterday. The moment is still fresh in my mind. I can exactly see the yellow, red and blue tones of my first BMX in front of me. Although I grew up in Rome, which is not exactly a bike-friendly city, bicycles have played a central role in my life.
+Although I grew up in Rome, which is not exactly a bike-friendly city, bicycles have played a central role in my life. I remember the first time I rode a bicycle without training wheels as if it was yesterday. The moment is still fresh in my mind. I can see the yellow, red and blue tones of my first BMX right in front of me.
 
 When I was a student in the Netherlands, living on a tight budget, my bike allowed me to move freely around the city. Riding a bike was a form of entertainment, a way to stay fit, a necessity. My heart was crushed when my city bike got stolen. I quickly moved on, however, and bought a second-hand one and lived frugally for a while.
 
