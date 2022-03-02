@@ -5,11 +5,10 @@ date:   2022-03-02 13:12:45 +0100
 categories: jekyll update
 tags:
 - python
+- data
 show_excerpts: true
 published: true
 ---
-
-Track changes over time to your raw data
 
 I'm a big fan of the python library csv-diff. I've used it in some custom projects that required me to compare raw datasets over time. With a few python commands, you can output JSON that contains all changes between an old and a new dataset:
 
