@@ -9,7 +9,7 @@ show_excerpts: true
 published: true
 ---
 
-Bikepacking doesn't have to be expensive. You can have fun on a low budget. Warm clothes, spare parts, and motivation are all you need. Motivation is paramount. The biggest lesson that a solo bike trip through Patagonia taught me. If I made it with this setup, so can you: 
+Bikepacking doesn't have to be expensive. You can have fun on a low budget. Warm clothes, spare parts, and motivation are all you need. Motivation is paramount. That's the biggest lesson that a solo bike trip through Patagonia taught me.
 
 The landscape and climate are very diverse in Patagonia. Some days you sweat your ass off biking through empty, desert landscapes. You try to save each water drop and can't wait to rest your body under some shade. Other days, temperatures can drop below zero degrees celsius, wind and rain batter your body.
 
