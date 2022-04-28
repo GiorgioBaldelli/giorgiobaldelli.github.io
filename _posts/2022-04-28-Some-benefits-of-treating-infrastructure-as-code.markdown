@@ -9,11 +9,11 @@ show_excerpts: true
 published: true
 ---
 
-When we treat our infrastructure as code, we write code to manage each resource of our cloud infrastructure. The code acts both as living documentation and as a declarative set of instructions that manages our cloud resources.
+When we treat cloud infrastructure as code, we write code to manage each resource within the platform. The code acts both as living documentation and as a declarative set of instructions that manages our cloud resources.
 
 Treating infrastructure as code contrasts with manually setting up each piece of infrastructure using the web interface provided by our chosen cloud provider. 
 
-The previous comparison hints already at some benefits of treating infrastructure as code. From my experience with using Terraform, the leading tool when it comes to enabling users to treat their infrastructure as code, these are the main benefits:
+The previous remarks hint already at some benefits. From my experience with using Terraform, the leading tool when it comes to enabling users to treat their infrastructure as code, these are the main advantages:
 
 1. Documentation.  By treating our infrastructure as code and storing our configuration files in a version-controlled repository, we have evolving documentation that keeps track of changes over time. 
 
