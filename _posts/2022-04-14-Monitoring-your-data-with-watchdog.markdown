@@ -2,7 +2,7 @@
 layout: post
 title:  Monitoring your data with watchdog
 date:   2022-04-12 12:30:30 +0100
-categories: jekyll update
+categories:
 tags:
 - data engineering
 show_excerpts: true
