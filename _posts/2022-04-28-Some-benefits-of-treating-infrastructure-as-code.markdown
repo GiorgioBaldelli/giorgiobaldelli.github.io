@@ -4,7 +4,7 @@ title:  The benefits of treating infrastructure as code
 date:   2022-04-12 12:30:30 +0100
 categories: notes
 tags:
-- DevOps
+- devops
 show_excerpts: true
 published: true
 ---
