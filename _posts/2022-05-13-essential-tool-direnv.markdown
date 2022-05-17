@@ -2,7 +2,7 @@
 layout: post
 title:  "Essential Tool: direnv "
 date:   2022-05-13 18:30:45 +0100
-categories:
+categories: notes
 tags:
 - devops
 show_excerpts: true
