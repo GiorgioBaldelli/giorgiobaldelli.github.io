@@ -2,7 +2,7 @@
 layout: post
 title:  The benefits of treating infrastructure as code
 date:   2022-04-12 12:30:30 +0100
-categories: jekyll update
+categories: notes
 tags:
 - DevOps
 show_excerpts: true
