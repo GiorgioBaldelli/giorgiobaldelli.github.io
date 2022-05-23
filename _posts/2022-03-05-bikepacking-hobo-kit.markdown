@@ -6,7 +6,7 @@ categories: jekyll update
 tags:
 - bicycles
 show_excerpts: true
-published: true
+published: false
 ---
 
 Bikepacking doesn't have to be expensive. You can have fun on a low budget. Warm clothes, spare parts, and motivation are all you need. Motivation is paramount. That's the biggest lesson that a solo bike trip through Patagonia taught me.
