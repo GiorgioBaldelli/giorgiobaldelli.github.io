@@ -6,7 +6,7 @@ categories: jekyll update
 tags:
 - bicycles
 show_excerpts: true
-published: true
+published: false
 ---
 
 Although I grew up in Rome, which is not exactly a bike-friendly city, bicycles have played a central role in my life. I remember the first time I rode a bicycle without training wheels as if it was yesterday. The moment is still fresh in my mind. I can see the yellow, red and blue tones of my first BMX right in front of me.
