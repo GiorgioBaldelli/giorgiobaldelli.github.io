@@ -9,11 +9,9 @@ show_excerpts: true
 published: true
 ---
 
-After installing ansible, the easiest way to get started is to run a typical "hello world" example.
+After installing ansible, the easiest way to get started is to run a typical "hello world" playbook. In short, playbooks are a set of declarative instructions that tell a defined host what to execute. Ansible allows us to write humanly readable declarative instructions using yml syntax to define tasks to automate.
 
-In ansible, playbooks are a set of declarative instructions that tell a define host what to execute. 
-
-Let's try to simply echo "Hello World" on our local machine:
+Let's try to simply output "Hello World" on our local machine:
 
 ```
 ansible-hello-world/ 
@@ -21,7 +19,7 @@ ansible-hello-world/
 └── playbook.yml
 ```
 
-The inventory file simply lists a list of target machines on which we would like to run our playbooks. In our case, it's `localhost` since we're running the playbook on our own machine.
+The inventory file lists a list of target machines on which we would like to run our playbook. In our case, it's `localhost` since we're running the playbook on our own machine.
 
 inventory:
 ```
@@ -29,7 +27,7 @@ inventory:
 localhost
 ```
 
-The playbook use declarative language to instruct the machine about what to do. In this given case, we're defining a task name `Hello World!` and outputting the debug message `Hello World!`
+The playbook uses declarative language to instruct the machine about what to do. In this given case, we're defining a task name `Hello World!` and outputting the debug message `Hello World!`
 
 playbook.yml:
 ```
@@ -51,7 +49,8 @@ To run the playbook, we run the following command:
 This should be the outcome that you see in your console:
 
 
-```PLAY [localhost] ***********************************************************************************************************************************************************************************
+```
+PLAY [localhost] ***********************************************************************************************************************************************************************************
 
 TASK [Gathering Facts] *****************************************************************************************************************************************************************************
 [WARNING]: Platform darwin on host localhost is using the discovered Python interpreter at /usr/bin/python, but future installation of another Python interpreter could change the meaning of that
@@ -67,4 +66,4 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
 
-And there you go, this is how you run a simple hello world playbook with ansible to get started with ansible. Have fun automating all things :)
+And there you go, this is how you run a simple hello world playbook to get started with ansible. Have fun automating all things :)
