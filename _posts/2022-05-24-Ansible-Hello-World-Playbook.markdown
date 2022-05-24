@@ -1,0 +1,70 @@
+---
+layout: post
+title:  "Ansible: Hello World Playbook"
+date:   2022-05-24 12:00:45 +0100
+categories: notes
+tags:
+- devops
+show_excerpts: true
+published: true
+---
+
+After installing ansible, the easiest way to get started is to run a typical "hello world" example.
+
+In ansible, playbooks are a set of declarative instructions that tell a define host what to execute. 
+
+Let's try to simply echo "Hello World" on our local machine:
+
+```
+ansible-hello-world/ 
+├── inventory 
+└── playbook.yml
+```
+
+The inventory file simply lists a list of target machines on which we would like to run our playbooks. In our case, it's `localhost` since we're running the playbook on our own machine.
+
+inventory:
+```
+[target]
+localhost
+```
+
+The playbook use declarative language to instruct the machine about what to do. In this given case, we're defining a task name `Hello World!` and outputting the debug message `Hello World!`
+
+playbook.yml:
+```
+---
+- hosts: localhost
+  connection: local
+  tasks:
+   	- name: Hello World!
+      debug:
+	    msg: "Hello World!"
+```
+
+To run the playbook, we run the following command:
+
+```bash 
+~/ansible-hello-world$ ansible-playbook -i inventory playbook.yml
+```
+
+This should be the outcome that you see in your console:
+
+
+```PLAY [localhost] ***********************************************************************************************************************************************************************************
+
+TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+[WARNING]: Platform darwin on host localhost is using the discovered Python interpreter at /usr/bin/python, but future installation of another Python interpreter could change the meaning of that
+path. See https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+ok: [localhost]
+
+TASK [Hello World!] ********************************************************************************************************************************************************************************
+ok: [localhost] => {
+    "msg": "Hello World!"
+}
+
+PLAY RECAP *****************************************************************************************************************************************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+```
+
+And there you go, this is how you run a simple hello world playbook with ansible to get started with ansible. Have fun automating all things :)
