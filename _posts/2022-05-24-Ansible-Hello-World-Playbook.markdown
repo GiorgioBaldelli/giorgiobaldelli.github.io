@@ -27,7 +27,9 @@ inventory:
 localhost
 ```
 
-The playbook uses declarative language to instruct the machine about what to do. In this given case, we're defining a task name `Hello World!` and outputting the debug message `Hello World!`
+The playbook uses declarative language to instruct the machine about what to do. In this given case, we're defining two tasks. The first task is named `Hello World!` and it simply outputs the debug message `Hello World!`.
+
+The second task creates a `hello_world.txt` file in our working directory and writes two lines of content to the newly created file:
 
 playbook.yml:
 ```
@@ -35,9 +37,15 @@ playbook.yml:
 - hosts: localhost
   connection: local
   tasks:
-   	- name: Hello World!
+    - name: Hello World!
       debug:
-	    msg: "Hello World!"
+        msg: "Hello World!"
+    - name: Ansible create file with content example
+      copy:
+        dest: "hello_world.txt"
+        content: |
+          Hello
+          World!
 ```
 
 To run the playbook, we run the following command:
@@ -62,8 +70,11 @@ ok: [localhost] => {
     "msg": "Hello World!"
 }
 
+TASK [Ansible create file with content example] ****************************************************************************************************************************************************
+changed: [localhost]
+
 PLAY RECAP *****************************************************************************************************************************************************************************************
-localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+localhost                  : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 ```
 
 And there you go, this is how you run a simple hello world playbook to get started with ansible. Have fun automating all things :)
