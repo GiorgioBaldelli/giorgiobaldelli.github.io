@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ansible: Hello World Playbook"
-date:   2022-05-24 12:00:45 +0100
+date:   2022-05-24 08:30:45 +0100
 categories: notes
 tags:
 - devops
