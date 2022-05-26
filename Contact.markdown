@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /Contact/
+permalink: /contact/
 ---
 
 # Hi there, I'm using this website to save notes, snippets of code and random thoughts. 
