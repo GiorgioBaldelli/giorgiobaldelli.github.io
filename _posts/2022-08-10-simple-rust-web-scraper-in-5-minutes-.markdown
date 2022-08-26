@@ -9,6 +9,8 @@ show_excerpts: true
 published: true
 ---
 
+Simple boilerplate code to set up a web scraper in Rust. Html content is parsed and relevant parts are extracted using CSS selectors.
+
 ```rust
 [package]
 name = "web_scraper"
