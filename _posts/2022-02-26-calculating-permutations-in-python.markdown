@@ -1,23 +1,62 @@
 ---
 layout: post
-title:  "Calculating Permutations with Python"
-date:   2022-02-16 23:12:45 +0100
-categories: jekyll update
+title:  "Calculating Permutations with itertools"
+date:   2022-07-16 23:12:45 +0100
+categories: notes
 tags:
 - python
 show_excerpts: true
-published: false
+published: true
 ---
 
-I'm working on a demography related project that requires me to simulate population growth using various combinations of conditions:
+I was working on a project that required me to forecast population growth for a given city. The  goal was to simulate different scenarios with different conditions that might influence the growth rate. 
 
-- low fertility, moderate fertility, high fertility
-- low life-expectancy, moderate life-expectancy, high-life expectancy
-- low migration, moderate migration, high migration
+In many possible ways can be combine the scenarios listed below?
 
 
-In how many way can you combine the previous variables? 
+```python
 
-It's easy to calculate all possible outcomes using the python library itertools. We have 27 permutations that we'll need to prepare simulations:
+scenarios = [['fertility_high', 'fertility_moderate', 'fertility_high'],
+             ['survival_low', 'survival_moderate', 'survival_high'],
+             ['migration_low', 'migration_moderate', 'migration_high']]
 
-If you're bumbing into a more complex permuatation problem, check the library out. It can come in handy.
+```
+
+
+```python
+permutations = list(itertools.product(*scenarios))
+```
+
+The previous operation yields a list containg tuples of all possible combinations:
+
+
+```python3
+[('fertility_high', 'survival_low', 'migration_low')
+('fertility_high', 'survival_low', 'migration_moderate')
+('fertility_high', 'survival_low', 'migration_high')
+('fertility_high', 'survival_moderate', 'migration_low')
+('fertility_high', 'survival_moderate', 'migration_moderate')
+('fertility_high', 'survival_moderate', 'migration_high')
+('fertility_high', 'survival_high', 'migration_low')
+('fertility_high', 'survival_high', 'migration_moderate')
+('fertility_high', 'survival_high', 'migration_high')
+('fertility_moderate', 'survival_low', 'migration_low')
+('fertility_moderate', 'survival_low', 'migration_moderate')
+('fertility_moderate', 'survival_low', 'migration_high')
+('fertility_moderate', 'survival_moderate', 'migration_low')
+('fertility_moderate', 'survival_moderate', 'migration_moderate')
+('fertility_moderate', 'survival_moderate', 'migration_high')
+('fertility_moderate', 'survival_high', 'migration_low')
+('fertility_moderate', 'survival_high', 'migration_moderate')
+('fertility_moderate', 'survival_high', 'migration_high')
+('fertility_high', 'survival_low', 'migration_low')
+('fertility_high', 'survival_low', 'migration_moderate')
+('fertility_high', 'survival_low', 'migration_high')
+('fertility_high', 'survival_moderate', 'migration_low')
+('fertility_high', 'survival_moderate', 'migration_moderate')
+('fertility_high', 'survival_moderate', 'migration_high')
+('fertility_high', 'survival_high', 'migration_low')
+('fertility_high', 'survival_high', 'migration_moderate')
+('fertility_high', 'survival_high', ‘migration_high’)]
+```
+('fertility_high', 'survival_high', ‘migration_high’)]
