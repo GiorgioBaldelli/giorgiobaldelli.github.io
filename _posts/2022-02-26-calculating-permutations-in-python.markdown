@@ -30,7 +30,7 @@ permutations = list(itertools.product(*scenarios))
 The previous operation yields a list containg tuples of all possible combinations:
 
 
-```python3
+```python
 [('fertility_high', 'survival_low', 'migration_low')
 ('fertility_high', 'survival_low', 'migration_moderate')
 ('fertility_high', 'survival_low', 'migration_high')
@@ -58,5 +58,5 @@ The previous operation yields a list containg tuples of all possible combination
 ('fertility_high', 'survival_high', 'migration_low')
 ('fertility_high', 'survival_high', 'migration_moderate')
 ('fertility_high', 'survival_high', ‘migration_high’)]
-```
 ('fertility_high', 'survival_high', ‘migration_high’)]
+```
