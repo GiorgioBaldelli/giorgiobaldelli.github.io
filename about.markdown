@@ -8,6 +8,7 @@ permalink: /about/
   
 **g.baldelli at gmail dot com**  
  
+ ---
 # Current  
   
   **Polyteia  
@@ -19,7 +20,7 @@ Cool facts about Polyteia:
   
 2022.03.02 / [Polyteia raises €5M funding](https://www.crunchbase.com/funding_round/polyteia-seed--df7d3f77)  
   
----  
+<br>
   
 **Formlabs  
 2016 - 2022**  
@@ -32,22 +33,22 @@ Cool facts about formlabs:
 2018.08.01 / [Formlabs goes unicorn](https://3dprint.com/281702/formlabs-reaches-double-unicorn-status-with-150m-series-e-round/)  
   
   
-  
+  ---
 # FAQ  
   
 > What are you doing now?  
   
-I'm building an open-source data platform for cities at Polyteia.   
+I'm helping build an open-source data platform for cities at Polyteia.   
   
 > Where are you based now?  
   
-I alternate between quiet places in Germany, Italy & the US.  
+I'm lucky to be able to work remotely. Most of the time, I alternate between quiet places in Germany, Italy & the US.  
   
 > What have you studied in university?  
   
-I studied Economics & Business in Utrecht & Singapore. My Bachelor's thesis was on e-waste management policies.  
+I studied Economics & Business in Utrecht & Singapore. My Bachelor's thesis was on e-waste management policies in the EU.  
   
-I also completed a Master's degree in International Development at the University of Amsterdam. My Master's thesis included field research on informal waste management (a.k.a waste picking) in Uruguay.  
+I also completed a Master's degree in International Development at the University of Amsterdam. some field research in Uruguay. My Master's thesis included field research on informal waste management (a.k.a waste picking) in Uruguay.  
   
 Before all of this, I had a one-year stint in Architecture in Munich. I decided to pursue other interests after a year. I may not have learned to build a house from scratch—but hey, I can pitch a tent at least.  
   
