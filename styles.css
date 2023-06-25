@@ -4,6 +4,25 @@
     box-sizing: border-box;
   }
   
+  span.blockspam {
+    display: none;
+  }
+
+  a {
+    --background-color: #0f0f11;
+    --primary-text-color: #fff;
+    --secondary-text-color: #aaa;
+    --link-text-color: #ccc;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    letter-spacing: -.01em;
+    color: var(--link-text-color);
+  }
+  
   body {
     font-family: 'Montserrat', sans-serif;
     background-color: #1a1a1a;
@@ -12,7 +31,7 @@
   }
   
   .container {
-    max-width: 960px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
   }
@@ -91,6 +110,11 @@
   }
   
   @media (max-width: 960px) {
+
+    .profile-image {
+      max-width: 100%;
+    }
+    
     .container {
       padding: 20px;
     }
@@ -101,6 +125,7 @@
   }
   
   @media (max-width: 600px) {
+
     h1 {
       font-size: 36px;
     }
