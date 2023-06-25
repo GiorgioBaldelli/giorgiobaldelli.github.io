@@ -22,6 +22,10 @@
     letter-spacing: -.01em;
     color: var(--link-text-color);
   }
+
+  .experience-item > p {
+    margin-bottom: 5px;
+  }
   
   body {
     font-family: 'Montserrat', sans-serif;
