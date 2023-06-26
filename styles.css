@@ -46,7 +46,7 @@
   }
   
   .profile-image {
-    float: left;
+    float: right;
     max-width: 200px;
     height: auto;
     margin: 0 20px 20px 0;
