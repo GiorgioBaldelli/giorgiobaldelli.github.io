@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Giorgio Baldelli</title>
+        <script>
+            function calculateExperience(startYear) {
+                const currentYear = new Date().getFullYear();
+                return currentYear - startYear;
+            }
+
+            function updateExperience() {
+                const startYear = 2016; // Replace with your actual starting year
+                const yearsOfExperience = calculateExperience(startYear);
+                document.getElementById("experience-years").textContent =
+                    yearsOfExperience;
+            }
+
+            // Run the updateExperience function when the page loads
+            window.onload = updateExperience;
+        </script>
+
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <h1>Giorgio</h1>
+                    <h2>Zurzeit in Berlin.</h2>
+                </div>
+                <img
+                    src="watercolor.jpg"
+                    alt="Watercolor Painting"
+                    class="profile-image"
+                />
+            </div>
+        </header>
+
+        <section>
+            <div class="container">
+                <h3>About</h3>
+                <p>
+                    I specialize in platform engineering, data analytics, and
+                    project management, bringing over
+                    <span id="experience-years"></span> years of combined
+                    expertise.
+                </p>
+                <br />
+                <p>
+                    When I'm not working, I enjoy cycling around Berlin during
+                    the warmer months. In the colder seasons, I head south to
+                    soak up the sun and recharge.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h3>Interests</h3>
+                <ul>
+                    <li>Open-source tech</li>
+                    <li>Kubernetes</li>
+                    <li>Scalable & distributed architectures</li>
+                    <li>Languages & bicycles</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h3>Work</h3>
+
+                <div class="experience-item">
+                    <h4>Data Platform Engineer</h4>
+                    <p>Dec 2021 – Today</p>
+                    <p><a href="https://polyteia.com/">Polyteia</a></p>
+                </div>
+
+                <div class="experience-item">
+                    <h4>Technical Lead</h4>
+                    <p>Jun 2021 – Nov 2021</p>
+                    <p><a href="https://formlabs.com/">Formlabs</a></p>
+                </div>
+
+                <div class="experience-item">
+                    <h4>Technical Program Manager</h4>
+                    <p>Jan 2021 – Jun 2021</p>
+                    <p><a href="https://formlabs.com/">Formlabs</a></p>
+                </div>
+
+                <div class="experience-item">
+                    <h4>Developer & Analyst</h4>
+                    <p>Feb 2017 – Jan 2021</p>
+                    <p><a href="https://formlabs.com/">Formlabs</a></p>
+                </div>
+
+                <div class="experience-item">
+                    <h4>Technical Support Engineer</h4>
+                    <p>Sep 2016 – Feb 2017</p>
+                    <p><a href="https://formlabs.com/">Formlabs</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h3>Education</h3>
+
+                <div class="experience-item">
+                    <h4>University of Amsterdam</h4>
+                    <p>Research Master</p>
+                    <p>International Development Studies</p>
+                    <p>2015</p>
+                </div>
+
+                <div class="experience-item">
+                    <h4>University of Utrecht</h4>
+                    <p>Bachelors of Sciences</p>
+                    <p>Economics and Business</p>
+                    <p>2013</p>
+                </div>
+
+                <div class="experience-item">
+                    <h4>Singapore Management University</h4>
+                    <p>Exchange</p>
+                    <p>2012</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h3>Languages</h3>
+                <ul>
+                    <li>English (Advanced)</li>
+                    <li>German (Native)</li>
+                    <li>Italian (Native)</li>
+                    <li>Spanish (Intermediate)</li>
+                    <li>French (Intermediate)</li>
+                    <li>Dutch (Beginner)</li>
+                    <li>Vietnamese (Beginner)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h3>Contact</h3>
+
+                <div class="education-item">
+                    <p>
+                        <a href="https://www.linkedin.com/in/giorgiobaldelli/"
+                            >linkedin</a
+                        >
+                    </p>
+                    <p>
+                        <span class="blockspam" aria-hidden="true"
+                            >PLEASE GO AWAY!</span
+                        >g.baldelli@<!-- sdfjsdhfkjypcs -->gmail.com
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>
+                    Last updated on Tue, June 18, 2024. Content provided under
+                    <a href="https://creativecommons.org/licenses/by-nc/3.0/"
+                        >BY-NC 3.0.</a
+                    >
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
